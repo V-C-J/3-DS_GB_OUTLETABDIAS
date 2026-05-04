@@ -1,0 +1,14 @@
+*{
+    box-sizing: border-box;
+} /*content-box define que a leitura vai ser no padrão do navegador, onde o padding e border não fazem parte do tamanho do elemento*/
+  /*border-box define que a leitura do padding e border fazem parte do tamanho do elemento. (mais moderno(css3))*/
+
+
+.box{
+    width: 400px;
+    height: 400px;
+    background-color: rgb(79, 210, 103); /*rsb = red,greem,blue: e o "a" é a transparencia*/
+    border: dotted 5px rgba(22, 234, 227, 0.9); /*solid, dotted, */
+    margin: 10% auto; /*da borda(border) para o proximo elemento*/
+    padding: 70px; /*do conteudo(content) para a borda(border)*/
+}
