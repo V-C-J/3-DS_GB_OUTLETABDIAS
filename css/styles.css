@@ -12,3 +12,15 @@
     margin: 10% auto; /*da borda(border) para o proximo elemento*/
     padding: 70px; /*do conteudo(content) para a borda(border)*/
 }
+
+.produtos img {
+  width: 180px;
+  height: 200px;
+  border-radius: 10px
+}
+
+.produtos img:hover {
+  transform: scale(1.2);
+}
+
+
