@@ -20,7 +20,10 @@
 }
 
 .produtos img:hover {
-  transform: scale(1.2);
+  transform: scale(1.07);
 }
 
-
+.conteiner{
+  display: flex;
+  justify-content: "center"
+}
