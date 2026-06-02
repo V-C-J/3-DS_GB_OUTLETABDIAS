@@ -23,7 +23,20 @@
   transform: scale(1.07);
 }
 
-.conteiner{
+.produtos{
   display: flex;
-  justify-content: "center"
+  justify-content: "center";
 }
+
+.titulo_produto{
+  font-weight: "bold";
+  display: flex;
+  justify-content: "center";
+  color: rgb(56, 56, 56);
+  font-family: "arial";
+  padding: 10px
+}
+
+.container{
+}
+
