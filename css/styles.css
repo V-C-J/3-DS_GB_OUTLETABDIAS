@@ -34,9 +34,22 @@
   justify-content: "center";
   color: rgb(56, 56, 56);
   font-family: "arial";
-  padding: 10px
+  padding: 10px;
+  text-align: "center"
+}
+
+.texto_produto{
+  display: flex;
+  justify-content: "center";
+  color: rgb(56, 56, 56);
+  font-family: "arial";
+  padding: 10px;
+  text-align: "center"
 }
 
 .container{
+  display: flex;
+  flex-direction: column;
+  justify-content: "center";
 }
 
