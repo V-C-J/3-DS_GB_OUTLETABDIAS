@@ -25,7 +25,8 @@
 
 .produtos{
   display: flex;
-  justify-content: "center";
+  flex-direction: column;
+  justify-content: center;
 }
 
 .titulo_produto{
@@ -44,12 +45,41 @@
   color: rgb(56, 56, 56);
   font-family: "arial";
   padding: 10px;
-  text-align: "center"
+  text-align: "center";
+  font-size: x-small;
 }
 
 .container{
   display: flex;
   flex-direction: column;
-  justify-content: "center";
+  justify-content: "center"
+}
+
+.linha_prod{
+  display: flex;
+}
+
+.aaaaa{
+  display: flex;
+  flex-direction: column;
+  justify-content: center
+}
+.btn_mais{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 50px;
+}
+
+.aaaaa2{
+  display: flex;
+  flex-direction: column;
+  justify-content: center
+}
+.btn_menos{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 50px;
 }
 
